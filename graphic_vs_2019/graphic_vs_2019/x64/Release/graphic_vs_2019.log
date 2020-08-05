@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\acer\source\repos\graphic_vs_2019\graphic_vs_2019>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared    -use_fast_math -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Ox /Fdx64\Release\vc142.pdb /FS /Zi  /MD /GR-" -o x64\Release\kernel.cu.obj "C:\Users\acer\source\repos\graphic_vs_2019\graphic_vs_2019\kernel.cu" 
+C:/Users/acer/source/repos/graphic_vs_2019/graphic_vs_2019/kernel.cu(219): warning : variable "_near" was declared but never referenced
+  
+C:/Users/acer/source/repos/graphic_vs_2019/graphic_vs_2019/kernel.cu(220): warning : variable "t" was declared but never referenced
+  
+  kernel.cu
+  graphic_vs_2019.vcxproj -> C:\Users\acer\source\repos\graphic_vs_2019\x64\Release\graphic_vs_2019.exe
